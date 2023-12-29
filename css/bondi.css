@@ -173,12 +173,7 @@ body {
   text-align: right;
 }
 /* end news */
-/* start project */
-.blog {
-  /* background-color: var(--section-color); */
-}
-/* end project */
-/* start subscribe */
+ /* start subscribe */
 .subscribe {
   background-color: #ffc200;
 }
@@ -242,6 +237,29 @@ textarea {
 
 .map {
   border: 1px solid var(--dark-color);
+}
+ 
+@media (min-width: 600px) {
+  .google-map {
+    width: 500px;
+   }
+}
+@media (min-width: 768px) {
+  .google-map {
+    width: 660px;
+   }
+}
+
+@media (min-width: 992px) {
+  .google-map {
+    width:500px;
+   }
+}
+
+@media (min-width: 1200px) {
+  .google-map {
+    width:600px;
+   }
 }
 .post input[type="text"] {
   font-size: 20px;
